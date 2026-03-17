@@ -1,0 +1,58 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "FAQ",
+  "colors": {
+    "primary": "#0A84FF",
+    "light": "#0A84FF",
+    "dark": "#0A84FF"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Инструкции",
+        "pages": [
+          "ios",
+          "android",
+          "macos",
+          "windows",
+          "android-tv"
+        ]
+      },
+      {
+        "group": "Документы",
+        "pages": [
+          "usloviya-aktsiy",
+          "publichnaya-oferta",
+          "politika-konfidentsialnosti-v-otnoshenii-obrabotki-personalnykh-dannykh"
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [],
+    "primary": {
+      "type": "button",
+      "label": "Бот",
+      "href": "https://t.me/BlenderRobot"
+    }
+  },
+  "appearance": {
+    "strict": true,
+    "default": "dark"
+  },
+  
+  "background": {
+  "color": {
+    "dark": "#0A0A0A"
+  }
+},
+  "fonts": {
+    "family": "Inter"
+  },
+  "errors": {
+    "404": {
+      "redirect": false
+    }
+  }
+}

@@ -7,18 +7,9 @@
     "light": "#0A84FF",
     "dark": "#0A84FF"
   },
+  
   "navigation": {
     "groups": [
-      {
-        "group": "Инструкции",
-        "pages": [
-          "ios",
-          "android",
-          "macos",
-          "windows",
-          "android-tv"
-        ]
-      },
       {
         "group": "Документы",
         "pages": [
@@ -29,6 +20,7 @@
       }
     ]
   },
+
   "navbar": {
     "links": [],
     "primary": {
